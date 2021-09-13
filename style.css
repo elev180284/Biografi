@@ -24,12 +24,7 @@ header h1 {
   font-weight: lighter;
   margin-bottom: 5px;
 }
-header h1:hover {
-  color:black;
-}
-header span {
-  color: #222;
-}
+/*Endrer boksen der linkene er*/
 div.container {
   font-family: Raleway;
   margin: 0 auto;
@@ -38,9 +33,10 @@ div.container {
   height:40px;
   width:auto;
 }
-
+/*Endrer teksten til linkene*/
 div.container a {
-  color: #FFf;
+  /*Linkene blir svart*/
+  color: #000000;
   text-decoration: none;
   font: 20px Raleway;
   margin: 0px 10px;
@@ -54,8 +50,6 @@ div.container a {
 .red {
   background: blue;
 }
-/* Top and Bottom borders go out */
-
 
 h1 {
   color: antiquewhite;
@@ -69,7 +63,7 @@ p {
   text-indent:60px;
   font-weight:lighter;
 }
-.universe {
+.Hei {
   background:#1a6ef4;
   text-align:center;
 }
@@ -83,26 +77,9 @@ p {
    text-align:center;
 }
 
-.wonder img {
-  height:100%;
-  width:auto;
 
 
-.universe img {
-  width:100%;
-}
-.wonder img {
-  height:100%;
-  width:100%;
-  background-size:cover;
-}
-.facts img {
-  width:auto;
-}
 .form {
   background:aqua;
   text-align:center;
-}
-.facts img {
-  width:auto;
 }
