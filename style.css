@@ -2,21 +2,22 @@
 /*Vi fant denne fonten*/
 
 html, body {
+  /*fyller hele siden*/
   margin: 0px;
-  padding:0;
-  width:100%;
 }
 
 header {
+  /*Fonten vi bruker*/
   font-family: Raleway;
-  margin: 0 auto;
+  /*Gjør boksen større*/
   padding: 35px;
+  /*setter teksten på midten*/
   text-align: center;
+  /*Gjør bakgrunnen grå*/
   background: #555;
   width:auto;
 
 }
-
 
 header h1 {
   color: #AAA;
@@ -67,17 +68,15 @@ p {
   background:#1a6ef4;
   text-align:center;
 }
-.facts {
+.Fakta {
   background:#538fef;
   text-align:center;
 }
 
-.wonder {
+.Hade {
    background:#93b8f2;
    text-align:center;
 }
-
-
 
 .form {
   background:aqua;
