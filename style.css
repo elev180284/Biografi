@@ -21,15 +21,20 @@ header {
 
 header h1 {
   color: #AAA;
+  /*Dette bestemmer fargen på teksten*/
   font-size: 40px;
+  /*Dette bestemmer størrelsen på fonten(tekststil)*/
   font-weight: lighter;
+  /*Font-weight er tykkelsen på fonten(tekststil)
   margin-bottom: 5px;
+  /*Margin-bottom betyr distansen mellom bunnen av boksen og bunnen av teksten*/
 }
 /*Endrer boksen der linkene er*/
 div.container {
   font-family: Raleway;
-  margin: 0 auto;
+  /*Font-family bestemmer hviklen font(tekststil) som brukes*/
   padding: 30px;
+  /*dette gjør boksen som teksten er i større*/
   text-align: center;
   height:40px;
   width:auto;
@@ -82,3 +87,4 @@ p {
   background:aqua;
   text-align:center;
 }
+© 2021 GitHub, Inc.
