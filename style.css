@@ -1,11 +1,9 @@
-@import 'https://fonts.googleapis.com/css?family=Raleway';
-/*Vi fant denne fonten*/
-
+/*Endrer ting innenfor html og body taggen*/
 html, body {
   /*fyller hele siden*/
   margin: 0px;
 }
-
+/*Endrer alt innenfor header taggen*/
 header {
   /*Fonten vi bruker*/
   font-family: Raleway;
@@ -15,76 +13,73 @@ header {
   text-align: center;
   /*Gjør bakgrunnen grå*/
   background: #555;
-  width:auto;
-
 }
-
+/*Endrer overskriften/ene i header taggen*/
 header h1 {
+    /*Dette bestemmer fargen på teksten*/
   color: #AAA;
-  /*Dette bestemmer fargen på teksten*/
-  font-size: 40px;
-  /*Dette bestemmer størrelsen på fonten(tekststil)*/
-  font-weight: lighter;
-  /*Font-weight er tykkelsen på fonten(tekststil)
-  margin-bottom: 5px;
-  /*Margin-bottom betyr distansen mellom bunnen av boksen og bunnen av teksten*/
+
+
 }
 /*Endrer boksen der linkene er*/
 div.container {
-  font-family: Raleway;
   /*Font-family bestemmer hviklen font(tekststil) som brukes*/
-  padding: 30px;
+  font-family: Raleway;
   /*dette gjør boksen som teksten er i større*/
+  padding: 30px;
+  /*dette plasserer teksten i midten*/
   text-align: center;
+  /*Endrer høyden*/
   height:40px;
-  width:auto;
 }
+
+div.sticky {
+  /*Gjør div til sticky. Slik at den er i toppen når man scroller*/
+  position: sticky;
+  /*Bestemmer toppen*/
+  top: 0;
+  /*Bestemmer farge*/
+  background-color: #130FFF;
+  /*Velger font størrelse*/
+  font-size: 20px;
+}
+
 /*Endrer teksten til linkene*/
 div.container a {
   /*Linkene blir svart*/
   color: #000000;
+  /*Fjernet linjen under teksten*/
   text-decoration: none;
-  font: 20px Raleway;
+  /*Lager mellomrom mellom linkene*/
   margin: 0px 10px;
   padding: 10px 10px;
-  position: relative;
-  z-index: 0;
-  cursor: pointer;
-  WORD-SPACING:2px;
 }
-
-.red {
-  background: blue;
-}
-
+/*Endrer alle overskriftene*/
 h1 {
-  color: antiquewhite;
+  /*Endrer fargen på overskriften til hvit*/
+  color: white;
+  /*Endrer størrelsen på teksten*/
   font-size: 40px;
+  /*Tynner ut skriften/Gjør den mindre*/
   font-weight: lighter;
-  margin-bottom: 5px;
+  /*Font-family bestemmer hviklen font(tekststil) som brukes*/
   font-family: "Orbitron" , monospace;
 }
+/*Endrer alle paragrafer*/
 p {
+  /*Font-family bestemmer hviklen font(tekststil) som brukes*/
   font-family:"Pacifico" , cursive;
-  text-indent:60px;
-  font-weight:lighter;
 }
+/*Endrer ting innenfor "Hei" div taggen*/
 .Hei {
+  /*Endrer bakgrunnsfargen*/
   background:#1a6ef4;
+  /*setter teksten på midten*/
   text-align:center;
 }
+/*Endrer ting innenfor "Fakta" div taggen*/
 .Fakta {
-  background:#538fef;
+  background:#1a6ef4;
+  /*setter teksten på midten*/
   text-align:center;
 }
-
-.Hade {
-   background:#93b8f2;
-   text-align:center;
-}
-
-.form {
-  background:aqua;
-  text-align:center;
-}
-© 2021 GitHub, Inc.
